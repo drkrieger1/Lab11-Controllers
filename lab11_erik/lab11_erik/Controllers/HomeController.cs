@@ -12,7 +12,7 @@ namespace lab11_erik.Controllers
         {
             return "Welcome to the home page...";
         }
-
+        [Route("Register")]
         public string Register()
         {
             return "you can register here..";
